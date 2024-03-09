@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>OMMM</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+    <div id="border"></div>
+    <div id="controls">
+        <img src="ommmlogo.png" height="30" width="30">
+        <h1>OMMM</h1>
+        <h4>v2.0</h4>
+        <button id="close">X</button>
+        <button id="hide">_</button>
+    </div>
+    <div class="content">
+        <div class="btns"><span class="material-symbols-outlined">folder</span>
+            <button id="selFolder">Выбрать</button>
+            <button id="openFolder">Открыть</button>
+        </div>
+        <div class="btns"><button id="removeMods"><span class="material-symbols-outlined">close</span>Убрать
+                моды</button>
+            <button id="update"><span class="material-symbols-outlined">sync</span></button>
+            <button id="import"><span class="material-symbols-outlined">download</span></button>
+        </div>
+        <span class="card add">
+            <input type="text" id="add" placeholder="Введите название">
+            <button id="addbtn" class="primary"><span class="material-symbols-outlined">create_new_folder</span></button>
+        </span>
+        <div id="modpacksList">
+            
+            </span>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

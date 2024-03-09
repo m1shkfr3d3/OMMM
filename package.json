@@ -1,0 +1,14 @@
+{
+  "name": "OMMM",
+  "packageManager": "yarn@3.6.1",
+  "dependencies": {
+    "@electron/asar": "^3.2.7",
+    "@electron/remote": "2.0.12",
+    "adm-zip": "^0.5.10",
+    "dialogs": "^2.0.1",
+    "electron": "22.3.27"
+  },
+  "scripts": {
+    "start": "electron .\\main"
+  }
+}
